@@ -665,8 +665,9 @@ composer require laravel/ui
 ```bash
 php artisan ui bootstrap --auth
 ```
-Открой файл: resources/views/layouts/app.blade.php 
-удалить
+Открой файл: resources/views/layouts/app.blade.php
+
+Удалить:
 ```bash
 @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 ```
