@@ -655,6 +655,22 @@ php artisan migrate:refresh
 ```bash
 App\Models\User::create(['email' => 'ivanov.ivan@gmail.com' , 'password' => '12345678' , 'need_to_change_password' => true , 'name' => 'Ivanov Ivan']);
 ```
+### 4 МОДУЛЬ за 3 команды
+```bash
+composer create-project laravel/laravel demo
+```
+```bash
+composer require laravel/ui
+```
+```bash
+php artisan ui bootstrap --auth
+```
+Открой файл: resources/views/layouts/app.blade.php 
+удалить
+```bash
+@vite(['resources/sass/app.scss', 'resources/js/app.js'])
+```
+
 ## 6 модуль
 
 ```
